@@ -1,0 +1,27 @@
+{
+  "name": "docker-gql-gateway",
+  "version": "1.0.0",
+  "description": "Docker image for graphql gateways using the package gql-gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segpacto/docker-gql-gateway.git"
+  },
+  "keywords": [
+    "graphql",
+    "gateway"
+  ],
+  "author": "Ivan Martinez Pupo <segpacto@yahoo.es>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/segpacto/docker-gql-gateway/issues"
+  },
+  "homepage": "https://github.com/segpacto/docker-gql-gateway#readme",
+  "dependencies": {
+    "gql-gateway": "^1.0.10"
+  }
+}
