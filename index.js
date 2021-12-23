@@ -36,5 +36,5 @@ gateway({
   logger
 })
   .then(server => server.listen(port))
-  .then(console.log('Service is now running at port: 5000'))
+  .then(console.log(`Service is now running at port: ${port}`))
   .catch(err => console.log(err))
